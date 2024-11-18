@@ -1,0 +1,28 @@
+
+# Arquivos de ambiente
+.env
+*.db
+
+# Diretórios de dependências
+venv/
+node_modules/
+
+# Arquivos compilados Python
+*.pyc
+__pycache__/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Docker
+docker-compose.override.yml
+Dockerfile.prod
